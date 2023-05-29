@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+#define MAX_CARACTERES_POR_LINEA 39
+
+void imprimirPaginaTexto() {
+    int contador = 0;
+    char letra = 'A';
+    
+    while (letra <= 'Z') {
+        printf("%c ", letra);
+        contador++;
+        
+        if (contador == MAX_CARACTERES_POR_LINEA) {
+            printf("\n");
+            contador = 0;
+        }
+        
+        letra++;
+    }
+}
+
+int main() {
+    imprimirPaginaTexto();
+    return 0;
+}
