@@ -14,9 +14,9 @@ int main() {
 	printf("Cociente: %i\n",cociente);
 	printf("Resto: %i\n",resto);
 	if (resto==0) {
-		printf("El número es divisible.\n");
+		printf("El nÃºmero es divisible.\n");
 	} else {
-		printf("El número no es divisible.\n");
+		printf("El nÃºmero no es divisible.\n");
 	}
 	return 0;
 }
