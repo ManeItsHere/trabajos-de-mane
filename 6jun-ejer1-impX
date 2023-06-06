@@ -1,0 +1,13 @@
+//Marlene RM 06-06-2023
+// imprime x del 1-9
+#include <stdio.h>
+
+int main() {
+    int x = 0;
+    
+    while (x < 10) {
+        printf("X: %d\n", x++);
+    }
+    
+    return 0;
+}
