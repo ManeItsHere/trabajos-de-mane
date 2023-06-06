@@ -1,0 +1,26 @@
+//ponderaciones
+//05-jun-2023 
+//mane rm
+
+#include <stdio.h>
+
+int main() {
+    int calificacion;
+    
+    printf("Ingrese una calificación: ");
+    scanf("%d", &calificacion);
+    
+    if (calificacion == 10) {
+        printf("Excelente\n");
+    } else if (calificacion == 9 || calificacion == 8) {
+        printf("Notable\n");
+    } else if (calificacion == 7) {
+        printf("Suficiente\n");
+    } else if (calificacion == 6) {
+        printf("Mal\n");
+    } else {
+        printf("Calificación no reconocida\n");
+    }
+    
+    return 0;
+}
