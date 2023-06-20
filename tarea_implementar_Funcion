@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int divide(int a, int b);
+
+int main() {
+    int resultado = divide(4, 16);
+    printf("%d\n", resultado);  // 1
+
+    resultado = divide(7, 20);
+    printf("%d\n", resultado);  // 0
+
+    return 0;
+}
