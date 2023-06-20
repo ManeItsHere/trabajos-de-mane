@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void encontrarMaximo(int a, int b, int* maximo) {
+if (a > b) {
+*maximo = a;
+} else {
+*maximo = b;
+}
+}
+
+int main() {
+int num1, num2, max;
+
+printf("Ing num1: ");
+scanf("%d", &num1);
+
+printf("Ing num2: ");
+scanf("%d", &num2);
+
+encontrarMaximo(num1, num2, &max);
+
+printf("El num mayor es: %d\n", max);
+
+return 0;
+}
